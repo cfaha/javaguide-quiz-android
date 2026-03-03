@@ -7,25 +7,65 @@ JAVAGUIDE = ROOT / "imported" / "JavaGuide" / "docs"
 OUT = ROOT / "content" / "questions" / "autogen-v0.json"
 
 
-def stem_from_heading(h: str) -> str:
-    h = re.sub(r"[`*#]+", "", h).strip()
-    return f"关于『{h}』，下列说法最准确的是？"
+INVALID_HEADING_PATTERNS = [
+    r"^必看$",
+    r"^🔥必看$",
+    r"^\(必看.*\)$",
+]
+
+
+def normalize_heading(raw: str) -> str:
+    h = raw
+    h = re.sub(r"\[(.*?)\]\([^)]*\)", r"\1", h)  # markdown link -> text
+    h = re.sub(r"[`*#]+", "", h)
+    h = re.sub(r":[^:\s]+:", "", h)  # emoji shortcode, e.g. :+1:
+    h = h.replace("🔥", "")
+    h = re.sub(r"[（(]\s*必看[^）)]*[）)]", "", h)
+    h = re.sub(r"\s+", " ", h).strip(" -—_：:·")
+    return h.strip()
+
+
+def is_invalid_heading(h: str) -> bool:
+    if len(h) < 2:
+        return True
+    if any(re.fullmatch(p, h) for p in INVALID_HEADING_PATTERNS):
+        return True
+    return False
+
+
+def stem_from_heading(h: str) -> str | None:
+    cleaned = normalize_heading(h)
+    if is_invalid_heading(cleaned):
+        return None
+    return f"关于『{cleaned}』，下列说法最准确的是？"
+
+
+def category_from_path(path: Path) -> str:
+    rel = path.relative_to(JAVAGUIDE)
+    if len(rel.parts) > 1:
+        return rel.parts[0]
+    return "javaguide"
 
 
 def gen_from_md(path: Path, limit=None):
     text = path.read_text(encoding="utf-8", errors="ignore")
     heads = re.findall(r"^#{2,4}\s+(.+)$", text, flags=re.M)
     items = []
-    cat = path.parts[1] if len(path.parts) > 1 else "general"
+    cat = category_from_path(path)
     selected = heads if limit is None else heads[:limit]
-    for i, h in enumerate(selected, 1):
-        qid = f"{cat}_{path.stem}_{i}".lower().replace(" ", "_")
+    idx = 0
+    for h in selected:
+        stem = stem_from_heading(h)
+        if stem is None:
+            continue
+        idx += 1
+        qid = f"{cat}_{path.stem}_{idx}".lower().replace(" ", "_")
         items.append({
             "id": qid,
             "type": "single",
             "category": cat,
             "subCategory": path.stem,
-            "stem": stem_from_heading(h),
+            "stem": stem,
             "options": ["选项A", "选项B", "选项C", "选项D"],
             "answers": ["选项A"],
             "explanation": "自动生成草稿题，需人工审核答案与解析。",
