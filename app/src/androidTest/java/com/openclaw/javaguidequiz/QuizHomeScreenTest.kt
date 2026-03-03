@@ -54,4 +54,13 @@ class QuizHomeScreenTest {
 
         composeRule.onNodeWithText("第 1/", substring = true).assertExists()
     }
+
+    @Test
+    fun canToggleFavoriteStateFromQuestionCard() {
+        composeRule.onNodeWithText("开始刷题").performClick()
+
+        composeRule.onNodeWithText("收藏").assertExists()
+        composeRule.onNodeWithText("收藏").performClick()
+        composeRule.onNodeWithText("取消收藏").assertExists()
+    }
 }

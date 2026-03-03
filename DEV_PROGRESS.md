@@ -15,6 +15,7 @@
 - Refactored `PracticeViewModel` for repository injection to support persistence interaction testing.
 - Added instrumentation test `PracticeViewModelPersistenceTest` to verify favorites/wrong-book survive ViewModel recreation via Room-backed repository.
 - Extended `QuizHomeScreenTest` with instrumentation coverage for answer submit→result→next flow and mode/category interactions.
+- Added UI instrumentation assertion for favorite toggle state (`收藏` ↔ `取消收藏`) to reduce interaction blind spots in question flow.
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
