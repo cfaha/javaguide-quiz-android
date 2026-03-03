@@ -15,8 +15,10 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-class PracticeViewModel(application: Application) : AndroidViewModel(application) {
-    private val repository = PracticeRepository((application as QuizApp).db.quizDao())
+class PracticeViewModel(
+    application: Application,
+    private val repository: PracticeRepository = PracticeRepository((application as QuizApp).db.quizDao())
+) : AndroidViewModel(application) {
 
     private val _state = MutableStateFlow(PracticeState())
     val state: StateFlow<PracticeState> = _state

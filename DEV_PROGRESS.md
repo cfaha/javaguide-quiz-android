@@ -12,6 +12,8 @@
 - Wired `PracticeViewModel` startup load to `PracticeRepository.loadOrSeedQuestions()` and DB-backed favorites/wrong-book restore.
 - Updated Compose instrumentation test to cover home entry and start-practice flow (mode/filter controls visibility).
 - Added CI pre-build validation for `questions.json` (non-empty, unique ids, valid type/options/answers) to guard Room seed/readback inputs.
+- Refactored `PracticeViewModel` for repository injection to support persistence interaction testing.
+- Added instrumentation test `PracticeViewModelPersistenceTest` to verify favorites/wrong-book survive ViewModel recreation via Room-backed repository.
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
