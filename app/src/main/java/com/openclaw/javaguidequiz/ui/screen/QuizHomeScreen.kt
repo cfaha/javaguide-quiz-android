@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -24,6 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.openclaw.javaguidesquiz.domain.model.PracticeMode
 import com.openclaw.javaguidesquiz.domain.model.QuestionType
 import com.openclaw.javaguidesquiz.ui.viewmodel.PracticeViewModel
 
@@ -34,6 +36,22 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
     val current = state.current
 
     Scaffold(topBar = { TopAppBar(title = { Text("JavaGuide Quiz") }) }) { padding ->
+        if (state.completed) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                Text("本轮完成 🎉", style = MaterialTheme.typography.titleLarge)
+                Text("得分：${state.score}/${state.total}")
+                Text("错题数：${state.wrongBook.size}，收藏数：${state.favorites.size}")
+                Button(onClick = vm::restart) { Text("再来一轮") }
+            }
+            return@Scaffold
+        }
+
         if (current == null) {
             Text("暂无题目", modifier = Modifier.padding(padding))
             return@Scaffold
@@ -46,6 +64,31 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            item {
+                Text("模式")
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FilterChip(
+                        selected = state.mode == PracticeMode.SEQUENTIAL,
+                        onClick = { vm.setMode(PracticeMode.SEQUENTIAL) },
+                        label = { Text("顺序") }
+                    )
+                    FilterChip(
+                        selected = state.mode == PracticeMode.RANDOM,
+                        onClick = { vm.setMode(PracticeMode.RANDOM) },
+                        label = { Text("随机") }
+                    )
+                }
+            }
+
+            item { Text("分类") }
+            items(state.categories) { category ->
+                FilterChip(
+                    selected = state.selectedCategory == category,
+                    onClick = { vm.setCategory(category) },
+                    label = { Text(category) }
+                )
+            }
+
             item {
                 Text("第 ${state.index + 1}/${state.total} 题 · ${current.category}")
                 Text(current.stem, style = MaterialTheme.typography.titleMedium)
@@ -90,8 +133,8 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
                     }
                 }
                 item {
-                    Button(onClick = vm::next, enabled = state.index < state.total - 1) {
-                        Text(if (state.index < state.total - 1) "下一题" else "已是最后一题")
+                    Button(onClick = vm::next) {
+                        Text(if (state.index < state.total - 1) "下一题" else "完成本轮")
                     }
                 }
             }
