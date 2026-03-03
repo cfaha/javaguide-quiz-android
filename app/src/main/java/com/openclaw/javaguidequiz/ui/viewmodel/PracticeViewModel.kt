@@ -1,6 +1,11 @@
 package com.openclaw.javaguidesquiz.ui.viewmodel
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.openclaw.javaguidesquiz.QuizApp
+import com.openclaw.javaguidesquiz.data.local.FavoriteEntity
+import com.openclaw.javaguidesquiz.data.local.WrongBookEntity
 import com.openclaw.javaguidesquiz.data.repository.SampleQuestionRepository
 import com.openclaw.javaguidesquiz.domain.model.PracticeMode
 import com.openclaw.javaguidesquiz.domain.model.PracticeState
@@ -10,14 +15,24 @@ import com.openclaw.javaguidesquiz.domain.model.Scoring
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 
-class PracticeViewModel : ViewModel() {
+class PracticeViewModel(application: Application) : AndroidViewModel(application) {
     private val all = SampleQuestionRepository.load()
+    private val dao = (application as QuizApp).db.quizDao()
 
     private val _state = MutableStateFlow(
         PracticeState(allQuestions = all, questions = all)
     )
     val state: StateFlow<PracticeState> = _state
+
+    init {
+        viewModelScope.launch {
+            val fav = dao.getFavoriteIds().toSet()
+            val wrong = dao.getWrongBookIds().toSet()
+            _state.update { it.copy(favorites = fav, wrongBook = wrong) }
+        }
+    }
 
     fun onSelectOption(index: Int) {
         val current = _state.value.current ?: return
@@ -46,6 +61,17 @@ class PracticeViewModel : ViewModel() {
                 score = it.score + if (correct) 1 else 0,
                 wrongBook = if (correct) it.wrongBook else it.wrongBook + q.id
             )
+        }
+        if (!correct) {
+            viewModelScope.launch {
+                dao.upsertWrongBook(
+                    WrongBookEntity(
+                        questionId = q.id,
+                        wrongCount = 1,
+                        lastWrongAt = System.currentTimeMillis()
+                    )
+                )
+            }
         }
     }
 
@@ -92,9 +118,14 @@ class PracticeViewModel : ViewModel() {
 
     fun toggleFavorite() {
         val q = _state.value.current ?: return
+        val shouldAdd = q.id !in _state.value.favorites
         _state.update {
-            val fav = if (q.id in it.favorites) it.favorites - q.id else it.favorites + q.id
+            val fav = if (shouldAdd) it.favorites + q.id else it.favorites - q.id
             it.copy(favorites = fav)
+        }
+        viewModelScope.launch {
+            if (shouldAdd) dao.addFavorite(FavoriteEntity(q.id, System.currentTimeMillis()))
+            else dao.removeFavorite(q.id)
         }
     }
 

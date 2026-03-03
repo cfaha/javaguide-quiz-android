@@ -19,6 +19,9 @@ interface QuizDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertWrongBook(item: WrongBookEntity)
 
+    @Query("SELECT questionId FROM wrong_book")
+    suspend fun getWrongBookIds(): List<String>
+
     @Query("SELECT questionId FROM favorite")
     suspend fun getFavoriteIds(): List<String>
 

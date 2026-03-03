@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name=".QuizApp"
         android:allowBackup="true"
         android:label="JavaGuide Quiz"
         android:supportsRtl="true"
