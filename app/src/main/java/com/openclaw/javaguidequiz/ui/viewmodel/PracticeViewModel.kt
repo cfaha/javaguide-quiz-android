@@ -4,8 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.openclaw.javaguidesquiz.QuizApp
-import com.openclaw.javaguidesquiz.data.local.FavoriteEntity
-import com.openclaw.javaguidesquiz.data.local.WrongBookEntity
+import com.openclaw.javaguidesquiz.data.repository.PracticeRepository
 import com.openclaw.javaguidesquiz.data.repository.SampleQuestionRepository
 import com.openclaw.javaguidesquiz.domain.model.PracticeMode
 import com.openclaw.javaguidesquiz.domain.model.PracticeState
@@ -19,7 +18,7 @@ import kotlinx.coroutines.launch
 
 class PracticeViewModel(application: Application) : AndroidViewModel(application) {
     private val all = SampleQuestionRepository.load()
-    private val dao = (application as QuizApp).db.quizDao()
+    private val repository = PracticeRepository((application as QuizApp).db.quizDao())
 
     private val _state = MutableStateFlow(
         PracticeState(allQuestions = all, questions = all)
@@ -28,8 +27,8 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
 
     init {
         viewModelScope.launch {
-            val fav = dao.getFavoriteIds().toSet()
-            val wrong = dao.getWrongBookIds().toSet()
+            val fav = repository.loadFavoriteIds()
+            val wrong = repository.loadWrongBookIds()
             _state.update { it.copy(favorites = fav, wrongBook = wrong) }
         }
     }
@@ -63,15 +62,7 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
             )
         }
         if (!correct) {
-            viewModelScope.launch {
-                dao.upsertWrongBook(
-                    WrongBookEntity(
-                        questionId = q.id,
-                        wrongCount = 1,
-                        lastWrongAt = System.currentTimeMillis()
-                    )
-                )
-            }
+            viewModelScope.launch { repository.recordWrong(q.id) }
         }
     }
 
@@ -124,8 +115,8 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
             it.copy(favorites = fav)
         }
         viewModelScope.launch {
-            if (shouldAdd) dao.addFavorite(FavoriteEntity(q.id, System.currentTimeMillis()))
-            else dao.removeFavorite(q.id)
+            if (shouldAdd) repository.addFavorite(q.id)
+            else repository.removeFavorite(q.id)
         }
     }
 
