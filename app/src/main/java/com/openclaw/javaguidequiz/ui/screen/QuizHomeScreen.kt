@@ -35,7 +35,22 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
     val state by vm.state.collectAsStateWithLifecycle()
     val current = state.current
 
-    Scaffold(topBar = { TopAppBar(title = { Text("JavaGuide Quiz") }) }) { padding ->
+    Scaffold(topBar = { TopAppBar(title = { Text("JavaGuide 刷题") }) }) { padding ->
+        if (!state.started) {
+            HomeEntry(
+                modifier = Modifier.padding(padding),
+                score = state.score,
+                wrongCount = state.wrongBook.size,
+                onStart = vm::startPractice,
+                onWrong = {
+                    vm.setCategory("全部")
+                    vm.setMode(PracticeMode.RANDOM)
+                    vm.startPractice()
+                }
+            )
+            return@Scaffold
+        }
+
         if (state.completed) {
             Column(
                 modifier = Modifier
@@ -47,7 +62,10 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
                 Text("本轮完成 🎉", style = MaterialTheme.typography.titleLarge)
                 Text("得分：${state.score}/${state.total}")
                 Text("错题数：${state.wrongBook.size}，收藏数：${state.favorites.size}")
-                Button(onClick = vm::restart) { Text("再来一轮") }
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Button(onClick = vm::restart) { Text("再来一轮") }
+                    Button(onClick = vm::backHome) { Text("返回首页") }
+                }
             }
             return@Scaffold
         }
@@ -65,32 +83,25 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             item {
-                Text("模式")
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    FilterChip(
-                        selected = state.mode == PracticeMode.SEQUENTIAL,
-                        onClick = { vm.setMode(PracticeMode.SEQUENTIAL) },
-                        label = { Text("顺序") }
-                    )
-                    FilterChip(
-                        selected = state.mode == PracticeMode.RANDOM,
-                        onClick = { vm.setMode(PracticeMode.RANDOM) },
-                        label = { Text("随机") }
-                    )
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Row(
+                        modifier = Modifier.padding(12.dp).fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Text("第 ${state.index + 1}/${state.total} 题")
+                        Text(current.category)
+                    }
                 }
             }
 
-            item { Text("分类") }
-            items(state.categories) { category ->
-                FilterChip(
-                    selected = state.selectedCategory == category,
-                    onClick = { vm.setCategory(category) },
-                    label = { Text(category) }
-                )
+            item {
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FilterChip(selected = state.mode == PracticeMode.SEQUENTIAL, onClick = { vm.setMode(PracticeMode.SEQUENTIAL) }, label = { Text("顺序") })
+                    FilterChip(selected = state.mode == PracticeMode.RANDOM, onClick = { vm.setMode(PracticeMode.RANDOM) }, label = { Text("随机") })
+                }
             }
 
             item {
-                Text("第 ${state.index + 1}/${state.total} 题 · ${current.category}")
                 Text(current.stem, style = MaterialTheme.typography.titleMedium)
             }
 
@@ -116,8 +127,9 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
             item {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Button(onClick = vm::submit, enabled = !state.showResult) { Text("提交") }
-                    Button(onClick = vm::toggleFavorite) {
-                        Text(if (current.id in state.favorites) "取消收藏" else "收藏")
+                    Button(onClick = vm::toggleFavorite) { Text(if (current.id in state.favorites) "取消收藏" else "收藏") }
+                    if (state.showResult) {
+                        Button(onClick = vm::next) { Text(if (state.index < state.total - 1) "下一题" else "完成") }
                     }
                 }
             }
@@ -132,17 +144,44 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
                         }
                     }
                 }
-                item {
-                    Button(onClick = vm::next) {
-                        Text(if (state.index < state.total - 1) "下一题" else "完成本轮")
-                    }
-                }
             }
 
             item {
                 Text("当前得分：${state.score}")
-                Text("错题数：${state.wrongBook.size}，收藏数：${state.favorites.size}")
+            }
+
+            item {
+                Text("分类")
+            }
+            items(state.categories) { category ->
+                FilterChip(selected = state.selectedCategory == category, onClick = { vm.setCategory(category) }, label = { Text(category) })
             }
         }
+    }
+}
+
+@Composable
+private fun HomeEntry(
+    modifier: Modifier = Modifier,
+    score: Int,
+    wrongCount: Int,
+    onStart: () -> Unit,
+    onWrong: () -> Unit
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Card(modifier = Modifier.fillMaxWidth()) {
+            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("今日刷题", style = MaterialTheme.typography.titleMedium)
+                Text("当前积分：$score")
+                Text("累计错题：$wrongCount")
+            }
+        }
+        Button(modifier = Modifier.fillMaxWidth(), onClick = onStart) { Text("开始刷题") }
+        Button(modifier = Modifier.fillMaxWidth(), onClick = onWrong) { Text("错题重练") }
     }
 }

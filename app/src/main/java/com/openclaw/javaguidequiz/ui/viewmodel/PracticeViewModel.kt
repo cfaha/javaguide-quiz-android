@@ -80,12 +80,18 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
         }
     }
 
+    fun startPractice() {
+        _state.update { it.copy(started = true) }
+        restart()
+    }
+
     fun restart() {
         val s = _state.value
         val filtered = filterQuestions(s.selectedCategory, s.mode)
         _state.update {
             it.copy(
                 questions = filtered,
+                started = true,
                 index = 0,
                 selectedOptions = emptySet(),
                 blankInput = "",
@@ -95,6 +101,10 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
                 score = 0
             )
         }
+    }
+
+    fun backHome() {
+        _state.update { it.copy(started = false, completed = false, showResult = false) }
     }
 
     fun setCategory(category: String) {

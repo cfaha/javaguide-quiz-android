@@ -7,6 +7,7 @@ data class PracticeState(
     val questions: List<Question> = emptyList(),
     val selectedCategory: String = "全部",
     val mode: PracticeMode = PracticeMode.SEQUENTIAL,
+    val started: Boolean = false,
     val index: Int = 0,
     val selectedOptions: Set<Int> = emptySet(),
     val blankInput: String = "",
