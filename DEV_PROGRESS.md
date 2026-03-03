@@ -10,6 +10,7 @@
 - Added unit tests for scoring logic.
 - Added Room repository mapping for `QuestionEntity/QuestionOptionEntity` <-> domain `Question`.
 - Wired `PracticeViewModel` startup load to `PracticeRepository.loadOrSeedQuestions()` and DB-backed favorites/wrong-book restore.
+- Updated Compose instrumentation test to cover home entry and start-practice flow (mode/filter controls visibility).
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
