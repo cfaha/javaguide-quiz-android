@@ -22,8 +22,11 @@ interface QuizDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertOptions(items: List<QuestionOptionEntity>)
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsertWrongBook(item: WrongBookEntity)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertWrongBook(item: WrongBookEntity): Long
+
+    @Query("UPDATE wrong_book SET wrongCount = wrongCount + 1, lastWrongAt = :lastWrongAt WHERE questionId = :questionId")
+    suspend fun incrementWrongBook(questionId: String, lastWrongAt: Long)
 
     @Query("SELECT questionId FROM wrong_book")
     suspend fun getWrongBookIds(): List<String>

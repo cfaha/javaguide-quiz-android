@@ -32,13 +32,17 @@ class PracticeRepository(private val dao: QuizDao) {
     }
 
     suspend fun recordWrong(questionId: String) {
-        dao.upsertWrongBook(
+        val now = System.currentTimeMillis()
+        val inserted = dao.insertWrongBook(
             WrongBookEntity(
                 questionId = questionId,
                 wrongCount = 1,
-                lastWrongAt = System.currentTimeMillis()
+                lastWrongAt = now
             )
         )
+        if (inserted == -1L) {
+            dao.incrementWrongBook(questionId, now)
+        }
     }
 
     private suspend fun loadQuestionsFromDb(): List<Question> {
