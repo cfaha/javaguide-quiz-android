@@ -10,6 +10,12 @@ interface QuizDao {
     @Query("SELECT * FROM question LIMIT :limit")
     suspend fun getQuestions(limit: Int = 50): List<QuestionEntity>
 
+    @Query("SELECT * FROM question")
+    suspend fun getAllQuestions(): List<QuestionEntity>
+
+    @Query("SELECT * FROM question_option")
+    suspend fun getAllOptions(): List<QuestionOptionEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertQuestions(items: List<QuestionEntity>)
 

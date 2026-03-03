@@ -5,7 +5,6 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.openclaw.javaguidesquiz.QuizApp
 import com.openclaw.javaguidesquiz.data.repository.PracticeRepository
-import com.openclaw.javaguidesquiz.data.repository.SampleQuestionRepository
 import com.openclaw.javaguidesquiz.domain.model.PracticeMode
 import com.openclaw.javaguidesquiz.domain.model.PracticeState
 import com.openclaw.javaguidesquiz.domain.model.Question
@@ -17,19 +16,24 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 class PracticeViewModel(application: Application) : AndroidViewModel(application) {
-    private val all = SampleQuestionRepository.load(application)
     private val repository = PracticeRepository((application as QuizApp).db.quizDao())
 
-    private val _state = MutableStateFlow(
-        PracticeState(allQuestions = all, questions = all)
-    )
+    private val _state = MutableStateFlow(PracticeState())
     val state: StateFlow<PracticeState> = _state
 
     init {
         viewModelScope.launch {
+            val loadedQuestions = repository.loadOrSeedQuestions(application)
             val fav = repository.loadFavoriteIds()
             val wrong = repository.loadWrongBookIds()
-            _state.update { it.copy(favorites = fav, wrongBook = wrong) }
+            _state.update {
+                it.copy(
+                    allQuestions = loadedQuestions,
+                    questions = loadedQuestions,
+                    favorites = fav,
+                    wrongBook = wrong
+                )
+            }
         }
     }
 
@@ -131,7 +135,8 @@ class PracticeViewModel(application: Application) : AndroidViewModel(application
     }
 
     private fun filterQuestions(category: String, mode: PracticeMode): List<Question> {
-        val base = if (category == "全部") all else all.filter { it.category == category }
+        val source = _state.value.allQuestions
+        val base = if (category == "全部") source else source.filter { it.category == category }
         return when (mode) {
             PracticeMode.SEQUENTIAL -> base
             PracticeMode.RANDOM -> base.shuffled()
