@@ -1,0 +1,5228 @@
+[
+  {
+    "id": "root_readme_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "README",
+    "stem": "关于『🔥必看』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "README"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/README.md"
+    }
+  },
+  {
+    "id": "root_readme_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "README",
+    "stem": "关于『🌟文章推荐』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "README"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/README.md"
+    }
+  },
+  {
+    "id": "root_home_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "home",
+    "stem": "关于『Java』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "home"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/home.md"
+    }
+  },
+  {
+    "id": "root_home_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "home",
+    "stem": "关于『基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "home"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/home.md"
+    }
+  },
+  {
+    "id": "root_readme_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "README",
+    "stem": "关于『我是什么时候毕业的？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "README"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/README.md"
+    }
+  },
+  {
+    "id": "root_readme_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "README",
+    "stem": "关于『我坚持写了多久博客？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "README"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/README.md"
+    }
+  },
+  {
+    "id": "root_deprecated-java-technologies_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "deprecated-java-technologies",
+    "stem": "关于『已经淘汰的 Java 技术』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "deprecated-java-technologies"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/deprecated-java-technologies.md"
+    }
+  },
+  {
+    "id": "root_deprecated-java-technologies_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "deprecated-java-technologies",
+    "stem": "关于『杠精言论』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "deprecated-java-technologies"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/deprecated-java-technologies.md"
+    }
+  },
+  {
+    "id": "root_internet-addiction-teenager_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "internet-addiction-teenager",
+    "stem": "关于『刚开始接触电脑』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "internet-addiction-teenager"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/internet-addiction-teenager.md"
+    }
+  },
+  {
+    "id": "root_internet-addiction-teenager_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "internet-addiction-teenager",
+    "stem": "关于『小学毕业后开始有网瘾』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "internet-addiction-teenager"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/internet-addiction-teenager.md"
+    }
+  },
+  {
+    "id": "root_my-college-life_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "my-college-life",
+    "stem": "关于『大一』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "my-college-life"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/my-college-life.md"
+    }
+  },
+  {
+    "id": "root_my-college-life_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "my-college-life",
+    "stem": "关于『办补习班』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "my-college-life"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/my-college-life.md"
+    }
+  },
+  {
+    "id": "root_writing-technology-blog-six-years_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "writing-technology-blog-six-years",
+    "stem": "关于『写技术博客有哪些好处？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "writing-technology-blog-six-years"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/writing-technology-blog-six-years.md"
+    }
+  },
+  {
+    "id": "root_writing-technology-blog-six-years_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "writing-technology-blog-six-years",
+    "stem": "关于『学习效果更好，加深知识点的认识』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "writing-technology-blog-six-years"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/writing-technology-blog-six-years.md"
+    }
+  },
+  {
+    "id": "root_zhishixingqiu-two-years_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zhishixingqiu-two-years",
+    "stem": "关于『我的知识星球评价如何？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zhishixingqiu-two-years"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/zhishixingqiu-two-years.md"
+    }
+  },
+  {
+    "id": "root_zhishixingqiu-two-years_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zhishixingqiu-two-years",
+    "stem": "关于『我的知识星球能为你提供什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zhishixingqiu-two-years"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/about-the-author/zhishixingqiu-two-years.md"
+    }
+  },
+  {
+    "id": "root_readme_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "README",
+    "stem": "关于『公众号』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "README"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/README.md"
+    }
+  },
+  {
+    "id": "root_cs-basics_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cs-basics",
+    "stem": "关于『操作系统』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cs-basics"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/cs-basics.md"
+    }
+  },
+  {
+    "id": "root_cs-basics_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cs-basics",
+    "stem": "关于『计算机网络』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cs-basics"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/cs-basics.md"
+    }
+  },
+  {
+    "id": "root_database_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "database",
+    "stem": "关于『数据库基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "database"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/database.md"
+    }
+  },
+  {
+    "id": "root_database_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "database",
+    "stem": "关于『《数据库系统概念》』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "database"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/database.md"
+    }
+  },
+  {
+    "id": "root_distributed-system_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-system",
+    "stem": "关于『《深入理解分布式系统》』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-system"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/distributed-system.md"
+    }
+  },
+  {
+    "id": "root_distributed-system_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-system",
+    "stem": "关于『《数据密集型应用系统设计》』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-system"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/distributed-system.md"
+    }
+  },
+  {
+    "id": "root_java_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "java",
+    "stem": "关于『Java 基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "java"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/java.md"
+    }
+  },
+  {
+    "id": "root_java_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "java",
+    "stem": "关于『Java 并发』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "java"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/java.md"
+    }
+  },
+  {
+    "id": "root_search-engine_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "search-engine",
+    "stem": "关于『Lucene』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "search-engine"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/search-engine.md"
+    }
+  },
+  {
+    "id": "root_search-engine_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "search-engine",
+    "stem": "关于『Elasticsearch』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "search-engine"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/search-engine.md"
+    }
+  },
+  {
+    "id": "root_software-quality_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "software-quality",
+    "stem": "关于『代码整洁之道』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "software-quality"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/software-quality.md"
+    }
+  },
+  {
+    "id": "root_software-quality_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "software-quality",
+    "stem": "关于『程序员职业素养』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "software-quality"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/books/software-quality.md"
+    }
+  },
+  {
+    "id": "root_10-classical-sorting-algorithms_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "10-classical-sorting-algorithms",
+    "stem": "关于『引言』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "10-classical-sorting-algorithms"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/10-classical-sorting-algorithms.md"
+    }
+  },
+  {
+    "id": "root_10-classical-sorting-algorithms_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "10-classical-sorting-algorithms",
+    "stem": "关于『简介』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "10-classical-sorting-algorithms"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/10-classical-sorting-algorithms.md"
+    }
+  },
+  {
+    "id": "root_classical-algorithm-problems-recommendations_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "classical-algorithm-problems-recommendations",
+    "stem": "关于『贪心算法』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "classical-algorithm-problems-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/classical-algorithm-problems-recommendations.md"
+    }
+  },
+  {
+    "id": "root_classical-algorithm-problems-recommendations_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "classical-algorithm-problems-recommendations",
+    "stem": "关于『算法思想』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "classical-algorithm-problems-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/classical-algorithm-problems-recommendations.md"
+    }
+  },
+  {
+    "id": "root_common-data-structures-leetcode-recommendations_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "common-data-structures-leetcode-recommendations",
+    "stem": "关于『数组』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "common-data-structures-leetcode-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/common-data-structures-leetcode-recommendations.md"
+    }
+  },
+  {
+    "id": "root_common-data-structures-leetcode-recommendations_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "common-data-structures-leetcode-recommendations",
+    "stem": "关于『链表』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "common-data-structures-leetcode-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/common-data-structures-leetcode-recommendations.md"
+    }
+  },
+  {
+    "id": "root_linkedlist-algorithm-problems_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linkedlist-algorithm-problems",
+    "stem": "关于『1. 两数相加』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linkedlist-algorithm-problems"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/linkedlist-algorithm-problems.md"
+    }
+  },
+  {
+    "id": "root_linkedlist-algorithm-problems_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linkedlist-algorithm-problems",
+    "stem": "关于『题目描述』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linkedlist-algorithm-problems"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/linkedlist-algorithm-problems.md"
+    }
+  },
+  {
+    "id": "root_string-algorithm-problems_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "string-algorithm-problems",
+    "stem": "关于『1. KMP 算法』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "string-algorithm-problems"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/string-algorithm-problems.md"
+    }
+  },
+  {
+    "id": "root_string-algorithm-problems_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "string-algorithm-problems",
+    "stem": "关于『2. 替换空格』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "string-algorithm-problems"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/string-algorithm-problems.md"
+    }
+  },
+  {
+    "id": "root_the-sword-refers-to-offer_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "the-sword-refers-to-offer",
+    "stem": "关于『斐波那契数列』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "the-sword-refers-to-offer"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/the-sword-refers-to-offer.md"
+    }
+  },
+  {
+    "id": "root_the-sword-refers-to-offer_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "the-sword-refers-to-offer",
+    "stem": "关于『跳台阶问题』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "the-sword-refers-to-offer"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/algorithms/the-sword-refers-to-offer.md"
+    }
+  },
+  {
+    "id": "root_bloom-filter_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "bloom-filter",
+    "stem": "关于『什么是布隆过滤器？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "bloom-filter"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/bloom-filter.md"
+    }
+  },
+  {
+    "id": "root_bloom-filter_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "bloom-filter",
+    "stem": "关于『布隆过滤器的原理介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "bloom-filter"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/bloom-filter.md"
+    }
+  },
+  {
+    "id": "root_graph_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "graph",
+    "stem": "关于『图的基本概念』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "graph"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/graph.md"
+    }
+  },
+  {
+    "id": "root_graph_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "graph",
+    "stem": "关于『顶点』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "graph"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/graph.md"
+    }
+  },
+  {
+    "id": "root_heap_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "heap",
+    "stem": "关于『什么是堆』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "heap"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/heap.md"
+    }
+  },
+  {
+    "id": "root_heap_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "heap",
+    "stem": "关于『堆的用途』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "heap"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/heap.md"
+    }
+  },
+  {
+    "id": "root_linear-data-structure_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linear-data-structure",
+    "stem": "关于『1. 数组』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linear-data-structure"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/linear-data-structure.md"
+    }
+  },
+  {
+    "id": "root_linear-data-structure_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linear-data-structure",
+    "stem": "关于『2. 链表』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linear-data-structure"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/linear-data-structure.md"
+    }
+  },
+  {
+    "id": "root_red-black-tree_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "red-black-tree",
+    "stem": "关于『红黑树介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "red-black-tree"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/red-black-tree.md"
+    }
+  },
+  {
+    "id": "root_red-black-tree_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "red-black-tree",
+    "stem": "关于『为什么需要红黑树？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "red-black-tree"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/red-black-tree.md"
+    }
+  },
+  {
+    "id": "root_tree_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tree",
+    "stem": "关于『二叉树的分类』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tree"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/tree.md"
+    }
+  },
+  {
+    "id": "root_tree_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tree",
+    "stem": "关于『满二叉树』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tree"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/data-structure/tree.md"
+    }
+  },
+  {
+    "id": "root_application-layer-protocol_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "application-layer-protocol",
+    "stem": "关于『HTTP:超文本传输协议』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "application-layer-protocol"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/application-layer-protocol.md"
+    }
+  },
+  {
+    "id": "root_application-layer-protocol_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "application-layer-protocol",
+    "stem": "关于『Websocket：全双工通信协议』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "application-layer-protocol"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/application-layer-protocol.md"
+    }
+  },
+  {
+    "id": "root_arp_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "arp",
+    "stem": "关于『MAC 地址』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "arp"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/arp.md"
+    }
+  },
+  {
+    "id": "root_arp_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "arp",
+    "stem": "关于『ARP 协议工作原理』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "arp"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/arp.md"
+    }
+  },
+  {
+    "id": "root_computer-network-xiexiren-summary_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "computer-network-xiexiren-summary",
+    "stem": "关于『1. 计算机网络概述』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "computer-network-xiexiren-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/computer-network-xiexiren-summary.md"
+    }
+  },
+  {
+    "id": "root_computer-network-xiexiren-summary_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "computer-network-xiexiren-summary",
+    "stem": "关于『1.1. 基本术语』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "computer-network-xiexiren-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/computer-network-xiexiren-summary.md"
+    }
+  },
+  {
+    "id": "root_dns_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "dns",
+    "stem": "关于『DNS 服务器』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "dns"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/dns.md"
+    }
+  },
+  {
+    "id": "root_dns_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "dns",
+    "stem": "关于『DNS 工作流程』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "dns"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/dns.md"
+    }
+  },
+  {
+    "id": "root_http-status-codes_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http-status-codes",
+    "stem": "关于『1xx Informational（信息性状态码）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http-status-codes"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http-status-codes.md"
+    }
+  },
+  {
+    "id": "root_http-status-codes_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http-status-codes",
+    "stem": "关于『2xx Success（成功状态码）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http-status-codes"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http-status-codes.md"
+    }
+  },
+  {
+    "id": "root_http-vs-https_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http-vs-https",
+    "stem": "关于『HTTP 协议』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http-vs-https"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http-vs-https.md"
+    }
+  },
+  {
+    "id": "root_http-vs-https_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http-vs-https",
+    "stem": "关于『HTTP 协议介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http-vs-https"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http-vs-https.md"
+    }
+  },
+  {
+    "id": "root_http1.0-vs-http1.1_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http1.0-vs-http1.1",
+    "stem": "关于『响应状态码』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http1.0-vs-http1.1"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http1.0-vs-http1.1.md"
+    }
+  },
+  {
+    "id": "root_http1.0-vs-http1.1_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http1.0-vs-http1.1",
+    "stem": "关于『缓存处理』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http1.0-vs-http1.1"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/http1.0-vs-http1.1.md"
+    }
+  },
+  {
+    "id": "root_nat_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "nat",
+    "stem": "关于『应用场景』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "nat"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/nat.md"
+    }
+  },
+  {
+    "id": "root_nat_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "nat",
+    "stem": "关于『细节』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "nat"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/nat.md"
+    }
+  },
+  {
+    "id": "root_network-attack-means_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "network-attack-means",
+    "stem": "关于『IP 欺骗』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "network-attack-means"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/network-attack-means.md"
+    }
+  },
+  {
+    "id": "root_network-attack-means_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "network-attack-means",
+    "stem": "关于『IP 是什么?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "network-attack-means"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/network-attack-means.md"
+    }
+  },
+  {
+    "id": "root_osi-and-tcp-ip-model_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "osi-and-tcp-ip-model",
+    "stem": "关于『OSI 七层模型』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "osi-and-tcp-ip-model"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/osi-and-tcp-ip-model.md"
+    }
+  },
+  {
+    "id": "root_osi-and-tcp-ip-model_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "osi-and-tcp-ip-model",
+    "stem": "关于『TCP/IP 四层模型』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "osi-and-tcp-ip-model"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/osi-and-tcp-ip-model.md"
+    }
+  },
+  {
+    "id": "root_other-network-questions_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "other-network-questions",
+    "stem": "关于『计算机网络基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "other-network-questions"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/other-network-questions.md"
+    }
+  },
+  {
+    "id": "root_other-network-questions_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "other-network-questions",
+    "stem": "关于『网络分层模型』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "other-network-questions"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/other-network-questions.md"
+    }
+  },
+  {
+    "id": "root_other-network-questions2_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "other-network-questions2",
+    "stem": "关于『TCP 与 UDP』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "other-network-questions2"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/other-network-questions2.md"
+    }
+  },
+  {
+    "id": "root_other-network-questions2_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "other-network-questions2",
+    "stem": "关于『⭐️TCP 与 UDP 的区别（重要）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "other-network-questions2"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/other-network-questions2.md"
+    }
+  },
+  {
+    "id": "root_tcp-connection-and-disconnection_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tcp-connection-and-disconnection",
+    "stem": "关于『建立连接-TCP 三次握手』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tcp-connection-and-disconnection"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/tcp-connection-and-disconnection.md"
+    }
+  },
+  {
+    "id": "root_tcp-connection-and-disconnection_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tcp-connection-and-disconnection",
+    "stem": "关于『什么是半连接队列和全连接队列？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tcp-connection-and-disconnection"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/tcp-connection-and-disconnection.md"
+    }
+  },
+  {
+    "id": "root_tcp-reliability-guarantee_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tcp-reliability-guarantee",
+    "stem": "关于『TCP 如何保证传输的可靠性？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tcp-reliability-guarantee"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/tcp-reliability-guarantee.md"
+    }
+  },
+  {
+    "id": "root_tcp-reliability-guarantee_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "tcp-reliability-guarantee",
+    "stem": "关于『TCP 如何实现流量控制？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "tcp-reliability-guarantee"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/tcp-reliability-guarantee.md"
+    }
+  },
+  {
+    "id": "root_the-whole-process-of-accessing-web-pages_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "the-whole-process-of-accessing-web-pages",
+    "stem": "关于『应用层』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "the-whole-process-of-accessing-web-pages"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/the-whole-process-of-accessing-web-pages.md"
+    }
+  },
+  {
+    "id": "root_the-whole-process-of-accessing-web-pages_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "the-whole-process-of-accessing-web-pages",
+    "stem": "关于『URL』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "the-whole-process-of-accessing-web-pages"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/network/the-whole-process-of-accessing-web-pages.md"
+    }
+  },
+  {
+    "id": "root_linux-intro_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linux-intro",
+    "stem": "关于『初探 Linux』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linux-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/linux-intro.md"
+    }
+  },
+  {
+    "id": "root_linux-intro_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "linux-intro",
+    "stem": "关于『Linux 简介』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "linux-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/linux-intro.md"
+    }
+  },
+  {
+    "id": "root_operating-system-basic-questions-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "operating-system-basic-questions-01",
+    "stem": "关于『操作系统基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "operating-system-basic-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/operating-system-basic-questions-01.md"
+    }
+  },
+  {
+    "id": "root_operating-system-basic-questions-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "operating-system-basic-questions-01",
+    "stem": "关于『什么是操作系统？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "operating-system-basic-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/operating-system-basic-questions-01.md"
+    }
+  },
+  {
+    "id": "root_operating-system-basic-questions-02_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "operating-system-basic-questions-02",
+    "stem": "关于『内存管理』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "operating-system-basic-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/operating-system-basic-questions-02.md"
+    }
+  },
+  {
+    "id": "root_operating-system-basic-questions-02_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "operating-system-basic-questions-02",
+    "stem": "关于『内存管理主要做了什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "operating-system-basic-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/operating-system-basic-questions-02.md"
+    }
+  },
+  {
+    "id": "root_shell-intro_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "shell-intro",
+    "stem": "关于『走进 Shell 编程的大门』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "shell-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/shell-intro.md"
+    }
+  },
+  {
+    "id": "root_shell-intro_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "shell-intro",
+    "stem": "关于『为什么要学 Shell？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "shell-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/cs-basics/operating-system/shell-intro.md"
+    }
+  },
+  {
+    "id": "root_basis_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "basis",
+    "stem": "关于『什么是数据库, 数据库管理系统, 数据库系统, 数据库管理员?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "basis"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/basis.md"
+    }
+  },
+  {
+    "id": "root_basis_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "basis",
+    "stem": "关于『DBMS 有哪些主要的功能』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "basis"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/basis.md"
+    }
+  },
+  {
+    "id": "root_character-set_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "character-set",
+    "stem": "关于『字符集是什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "character-set"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/character-set.md"
+    }
+  },
+  {
+    "id": "root_character-set_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "character-set",
+    "stem": "关于『字符编码是什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "character-set"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/character-set.md"
+    }
+  },
+  {
+    "id": "root_nosql_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "nosql",
+    "stem": "关于『NoSQL 是什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "nosql"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/nosql.md"
+    }
+  },
+  {
+    "id": "root_nosql_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "nosql",
+    "stem": "关于『SQL 和 NoSQL 有什么区别？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "nosql"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/nosql.md"
+    }
+  },
+  {
+    "id": "root_mongodb-questions-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mongodb-questions-01",
+    "stem": "关于『MongoDB 基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mongodb-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mongodb/mongodb-questions-01.md"
+    }
+  },
+  {
+    "id": "root_mongodb-questions-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mongodb-questions-01",
+    "stem": "关于『MongoDB 是什么？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mongodb-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mongodb/mongodb-questions-01.md"
+    }
+  },
+  {
+    "id": "root_mongodb-questions-02_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mongodb-questions-02",
+    "stem": "关于『MongoDB 索引』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mongodb-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mongodb/mongodb-questions-02.md"
+    }
+  },
+  {
+    "id": "root_mongodb-questions-02_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mongodb-questions-02",
+    "stem": "关于『MongoDB 索引有什么用?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mongodb-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mongodb/mongodb-questions-02.md"
+    }
+  },
+  {
+    "id": "root_a-thousand-lines-of-mysql-study-notes_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "a-thousand-lines-of-mysql-study-notes",
+    "stem": "关于『基本操作』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "a-thousand-lines-of-mysql-study-notes"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/a-thousand-lines-of-mysql-study-notes.md"
+    }
+  },
+  {
+    "id": "root_a-thousand-lines-of-mysql-study-notes_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "a-thousand-lines-of-mysql-study-notes",
+    "stem": "关于『数据库操作』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "a-thousand-lines-of-mysql-study-notes"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/a-thousand-lines-of-mysql-study-notes.md"
+    }
+  },
+  {
+    "id": "root_how-sql-executed-in-mysql_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "how-sql-executed-in-mysql",
+    "stem": "关于『一 MySQL 基础架构分析』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "how-sql-executed-in-mysql"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/how-sql-executed-in-mysql.md"
+    }
+  },
+  {
+    "id": "root_how-sql-executed-in-mysql_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "how-sql-executed-in-mysql",
+    "stem": "关于『1.1 MySQL 基本架构概览』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "how-sql-executed-in-mysql"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/how-sql-executed-in-mysql.md"
+    }
+  },
+  {
+    "id": "root_index-invalidation-caused-by-implicit-conversion_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "index-invalidation-caused-by-implicit-conversion",
+    "stem": "关于『前言』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "index-invalidation-caused-by-implicit-conversion"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/index-invalidation-caused-by-implicit-conversion.md"
+    }
+  },
+  {
+    "id": "root_index-invalidation-caused-by-implicit-conversion_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "index-invalidation-caused-by-implicit-conversion",
+    "stem": "关于『数据准备』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "index-invalidation-caused-by-implicit-conversion"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/index-invalidation-caused-by-implicit-conversion.md"
+    }
+  },
+  {
+    "id": "root_innodb-implementation-of-mvcc_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "innodb-implementation-of-mvcc",
+    "stem": "关于『多版本并发控制 (Multi-Version Concurrency Control)』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "innodb-implementation-of-mvcc"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/innodb-implementation-of-mvcc.md"
+    }
+  },
+  {
+    "id": "root_innodb-implementation-of-mvcc_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "innodb-implementation-of-mvcc",
+    "stem": "关于『一致性非锁定读和锁定读』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "innodb-implementation-of-mvcc"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/innodb-implementation-of-mvcc.md"
+    }
+  },
+  {
+    "id": "root_mysql-auto-increment-primary-key-continuous_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-auto-increment-primary-key-continuous",
+    "stem": "关于『自增值保存在哪里？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-auto-increment-primary-key-continuous"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-auto-increment-primary-key-continuous.md"
+    }
+  },
+  {
+    "id": "root_mysql-auto-increment-primary-key-continuous_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-auto-increment-primary-key-continuous",
+    "stem": "关于『自增值不连续的场景』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-auto-increment-primary-key-continuous"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-auto-increment-primary-key-continuous.md"
+    }
+  },
+  {
+    "id": "root_mysql-high-performance-optimization-specification-recommendations_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-high-performance-optimization-specification-recommendations",
+    "stem": "关于『数据库命名规范』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-high-performance-optimization-specification-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-high-performance-optimization-specification-recommendations.md"
+    }
+  },
+  {
+    "id": "root_mysql-high-performance-optimization-specification-recommendations_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-high-performance-optimization-specification-recommendations",
+    "stem": "关于『数据库基本设计规范』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-high-performance-optimization-specification-recommendations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-high-performance-optimization-specification-recommendations.md"
+    }
+  },
+  {
+    "id": "root_mysql-index_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-index",
+    "stem": "关于『索引介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-index"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-index.md"
+    }
+  },
+  {
+    "id": "root_mysql-index_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-index",
+    "stem": "关于『索引的优缺点』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-index"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-index.md"
+    }
+  },
+  {
+    "id": "root_mysql-logs_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-logs",
+    "stem": "关于『前言』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-logs"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-logs.md"
+    }
+  },
+  {
+    "id": "root_mysql-logs_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-logs",
+    "stem": "关于『redo log』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-logs"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-logs.md"
+    }
+  },
+  {
+    "id": "root_mysql-query-cache_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-query-cache",
+    "stem": "关于『MySQL 查询缓存介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-query-cache"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-query-cache.md"
+    }
+  },
+  {
+    "id": "root_mysql-query-cache_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-query-cache",
+    "stem": "关于『MySQL 查询缓存管理和配置』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-query-cache"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-query-cache.md"
+    }
+  },
+  {
+    "id": "root_mysql-query-execution-plan_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-query-execution-plan",
+    "stem": "关于『什么是执行计划？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-query-execution-plan"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-query-execution-plan.md"
+    }
+  },
+  {
+    "id": "root_mysql-query-execution-plan_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-query-execution-plan",
+    "stem": "关于『如何获取执行计划？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-query-execution-plan"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-query-execution-plan.md"
+    }
+  },
+  {
+    "id": "root_mysql-questions-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-questions-01",
+    "stem": "关于『MySQL 基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-questions-01.md"
+    }
+  },
+  {
+    "id": "root_mysql-questions-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "mysql-questions-01",
+    "stem": "关于『什么是关系型数据库？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "mysql-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/mysql-questions-01.md"
+    }
+  },
+  {
+    "id": "root_some-thoughts-on-database-storage-time_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "some-thoughts-on-database-storage-time",
+    "stem": "关于『不要用字符串存储日期』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "some-thoughts-on-database-storage-time"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/some-thoughts-on-database-storage-time.md"
+    }
+  },
+  {
+    "id": "root_some-thoughts-on-database-storage-time_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "some-thoughts-on-database-storage-time",
+    "stem": "关于『DATETIME 和 TIMESTAMP 选择』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "some-thoughts-on-database-storage-time"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/some-thoughts-on-database-storage-time.md"
+    }
+  },
+  {
+    "id": "root_transaction-isolation-level_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "transaction-isolation-level",
+    "stem": "关于『事务隔离级别总结』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "transaction-isolation-level"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/transaction-isolation-level.md"
+    }
+  },
+  {
+    "id": "root_transaction-isolation-level_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "transaction-isolation-level",
+    "stem": "关于『实际情况演示』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "transaction-isolation-level"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/mysql/transaction-isolation-level.md"
+    }
+  },
+  {
+    "id": "root_3-commonly-used-cache-read-and-write-strategies_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "3-commonly-used-cache-read-and-write-strategies",
+    "stem": "关于『Cache Aside Pattern（旁路缓存模式）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "3-commonly-used-cache-read-and-write-strategies"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/3-commonly-used-cache-read-and-write-strategies.md"
+    }
+  },
+  {
+    "id": "root_3-commonly-used-cache-read-and-write-strategies_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "3-commonly-used-cache-read-and-write-strategies",
+    "stem": "关于『Read/Write Through Pattern（读写穿透）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "3-commonly-used-cache-read-and-write-strategies"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/3-commonly-used-cache-read-and-write-strategies.md"
+    }
+  },
+  {
+    "id": "root_cache-basics_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cache-basics",
+    "stem": "关于『缓存的基本思想』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cache-basics"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/cache-basics.md"
+    }
+  },
+  {
+    "id": "root_cache-basics_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cache-basics",
+    "stem": "关于『缓存的分类』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cache-basics"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/cache-basics.md"
+    }
+  },
+  {
+    "id": "root_redis-common-blocking-problems-summary_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-common-blocking-problems-summary",
+    "stem": "关于『O(n) 命令』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-common-blocking-problems-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-common-blocking-problems-summary.md"
+    }
+  },
+  {
+    "id": "root_redis-common-blocking-problems-summary_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-common-blocking-problems-summary",
+    "stem": "关于『SAVE 创建 RDB 快照』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-common-blocking-problems-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-common-blocking-problems-summary.md"
+    }
+  },
+  {
+    "id": "root_redis-data-structures-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-data-structures-01",
+    "stem": "关于『String（字符串）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-data-structures-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-data-structures-01.md"
+    }
+  },
+  {
+    "id": "root_redis-data-structures-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-data-structures-01",
+    "stem": "关于『介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-data-structures-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-data-structures-01.md"
+    }
+  },
+  {
+    "id": "root_redis-data-structures-02_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-data-structures-02",
+    "stem": "关于『Bitmap （位图）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-data-structures-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-data-structures-02.md"
+    }
+  },
+  {
+    "id": "root_redis-data-structures-02_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-data-structures-02",
+    "stem": "关于『介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-data-structures-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-data-structures-02.md"
+    }
+  },
+  {
+    "id": "root_redis-delayed-task_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-delayed-task",
+    "stem": "关于『Redis 过期事件监听实现延时任务功能的原理？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-delayed-task"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-delayed-task.md"
+    }
+  },
+  {
+    "id": "root_redis-delayed-task_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-delayed-task",
+    "stem": "关于『Redis 过期事件监听实现延时任务功能有什么缺陷？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-delayed-task"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-delayed-task.md"
+    }
+  },
+  {
+    "id": "root_redis-memory-fragmentation_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-memory-fragmentation",
+    "stem": "关于『什么是内存碎片?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-memory-fragmentation"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-memory-fragmentation.md"
+    }
+  },
+  {
+    "id": "root_redis-memory-fragmentation_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-memory-fragmentation",
+    "stem": "关于『为什么会有 Redis 内存碎片?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-memory-fragmentation"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-memory-fragmentation.md"
+    }
+  },
+  {
+    "id": "root_redis-persistence_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-persistence",
+    "stem": "关于『RDB 持久化』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-persistence"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-persistence.md"
+    }
+  },
+  {
+    "id": "root_redis-persistence_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-persistence",
+    "stem": "关于『什么是 RDB 持久化？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-persistence"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-persistence.md"
+    }
+  },
+  {
+    "id": "root_redis-questions-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-questions-01",
+    "stem": "关于『Redis 基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-questions-01.md"
+    }
+  },
+  {
+    "id": "root_redis-questions-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-questions-01",
+    "stem": "关于『什么是 Redis？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-questions-01.md"
+    }
+  },
+  {
+    "id": "root_redis-questions-02_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-questions-02",
+    "stem": "关于『Redis 事务』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-questions-02.md"
+    }
+  },
+  {
+    "id": "root_redis-questions-02_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-questions-02",
+    "stem": "关于『什么是 Redis 事务？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-questions-02.md"
+    }
+  },
+  {
+    "id": "root_redis-skiplist_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-skiplist",
+    "stem": "关于『前言』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-skiplist"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-skiplist.md"
+    }
+  },
+  {
+    "id": "root_redis-skiplist_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-skiplist",
+    "stem": "关于『跳表在 Redis 中的运用』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-skiplist"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-skiplist.md"
+    }
+  },
+  {
+    "id": "root_redis-stream-mq_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-stream-mq",
+    "stem": "关于『第一阶段：早期用 List 数据结构』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-stream-mq"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-stream-mq.md"
+    }
+  },
+  {
+    "id": "root_redis-stream-mq_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "redis-stream-mq",
+    "stem": "关于『第二阶段：引入 Pub/Sub（发布/订阅）模式』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "redis-stream-mq"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/redis/redis-stream-mq.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-01_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-01",
+    "stem": "关于『检索数据』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-01.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-01_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-01",
+    "stem": "关于『从 Customers 表中检索所有的 ID』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-01"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-01.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-02_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-02",
+    "stem": "关于『增删改操作』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-02.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-02_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-02",
+    "stem": "关于『插入记录（一）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-02"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-02.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-03_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-03",
+    "stem": "关于『聚合函数』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-03"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-03.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-03_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-03",
+    "stem": "关于『SQL 类别高难度试卷得分的截断平均值（较难）』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-03"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-03.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-04_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-04",
+    "stem": "关于『专用窗口函数』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-04"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-04.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-04_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-04",
+    "stem": "关于『每类试卷得分前三名』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-04"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-04.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-05_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-05",
+    "stem": "关于『空值处理』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-05"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-05.md"
+    }
+  },
+  {
+    "id": "root_sql-questions-05_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-questions-05",
+    "stem": "关于『统计有未完成状态的试卷的未完成数和未完成率』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-questions-05"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-questions-05.md"
+    }
+  },
+  {
+    "id": "root_sql-syntax-summary_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-syntax-summary",
+    "stem": "关于『基本概念』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-syntax-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-syntax-summary.md"
+    }
+  },
+  {
+    "id": "root_sql-syntax-summary_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "sql-syntax-summary",
+    "stem": "关于『数据库术语』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "sql-syntax-summary"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/database/sql/sql-syntax-summary.md"
+    }
+  },
+  {
+    "id": "root_api-gateway_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "api-gateway",
+    "stem": "关于『什么是网关？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "api-gateway"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/api-gateway.md"
+    }
+  },
+  {
+    "id": "root_api-gateway_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "api-gateway",
+    "stem": "关于『核心价值』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "api-gateway"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/api-gateway.md"
+    }
+  },
+  {
+    "id": "root_distributed-id-design_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-id-design",
+    "stem": "关于『场景一：订单系统』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-id-design"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-id-design.md"
+    }
+  },
+  {
+    "id": "root_distributed-id-design_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-id-design",
+    "stem": "关于『1、一码付』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-id-design"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-id-design.md"
+    }
+  },
+  {
+    "id": "root_distributed-id_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-id",
+    "stem": "关于『分布式 ID 介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-id"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-id.md"
+    }
+  },
+  {
+    "id": "root_distributed-id_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-id",
+    "stem": "关于『什么是 ID？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-id"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-id.md"
+    }
+  },
+  {
+    "id": "root_distributed-lock-implementations_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-lock-implementations",
+    "stem": "关于『基于 Redis 实现分布式锁』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-lock-implementations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-lock-implementations.md"
+    }
+  },
+  {
+    "id": "root_distributed-lock-implementations_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-lock-implementations",
+    "stem": "关于『如何基于 Redis 实现一个最简易的分布式锁？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-lock-implementations"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-lock-implementations.md"
+    }
+  },
+  {
+    "id": "root_distributed-lock_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-lock",
+    "stem": "关于『为什么需要分布式锁？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-lock"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-lock.md"
+    }
+  },
+  {
+    "id": "root_distributed-lock_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "distributed-lock",
+    "stem": "关于『分布式锁应该具备哪些条件？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "distributed-lock"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-lock.md"
+    }
+  },
+  {
+    "id": "root_spring-cloud-gateway-questions_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "spring-cloud-gateway-questions",
+    "stem": "关于『什么是 Spring Cloud Gateway？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "spring-cloud-gateway-questions"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/spring-cloud-gateway-questions.md"
+    }
+  },
+  {
+    "id": "root_spring-cloud-gateway-questions_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "spring-cloud-gateway-questions",
+    "stem": "关于『Spring Cloud Gateway 的工作流程？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "spring-cloud-gateway-questions"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/spring-cloud-gateway-questions.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-in-action_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-in-action",
+    "stem": "关于『ZooKeeper 安装』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-in-action"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-in-action.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-in-action_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-in-action",
+    "stem": "关于『使用 Docker 安装 zookeeper』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-in-action"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-in-action.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-intro_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-intro",
+    "stem": "关于『ZooKeeper 介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-intro_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-intro",
+    "stem": "关于『ZooKeeper 由来』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-plus_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-plus",
+    "stem": "关于『什么是 ZooKeeper』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-plus"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.md"
+    }
+  },
+  {
+    "id": "root_zookeeper-plus_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "zookeeper-plus",
+    "stem": "关于『一致性问题』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "zookeeper-plus"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.md"
+    }
+  },
+  {
+    "id": "root_cap-and-base-theorem_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cap-and-base-theorem",
+    "stem": "关于『CAP 理论』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cap-and-base-theorem"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/cap-and-base-theorem.md"
+    }
+  },
+  {
+    "id": "root_cap-and-base-theorem_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "cap-and-base-theorem",
+    "stem": "关于『简介』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "cap-and-base-theorem"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/cap-and-base-theorem.md"
+    }
+  },
+  {
+    "id": "root_consistent-hashing_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "consistent-hashing",
+    "stem": "关于『普通哈希算法』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "consistent-hashing"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/consistent-hashing.md"
+    }
+  },
+  {
+    "id": "root_consistent-hashing_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "consistent-hashing",
+    "stem": "关于『一致性哈希算法』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "consistent-hashing"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/consistent-hashing.md"
+    }
+  },
+  {
+    "id": "root_gossip-protocol_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "gossip-protocol",
+    "stem": "关于『背景』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "gossip-protocol"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/gossip-protocol.md"
+    }
+  },
+  {
+    "id": "root_gossip-protocol_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "gossip-protocol",
+    "stem": "关于『Gossip 协议介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "gossip-protocol"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/gossip-protocol.md"
+    }
+  },
+  {
+    "id": "root_paxos-algorithm_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "paxos-algorithm",
+    "stem": "关于『背景』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "paxos-algorithm"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/paxos-algorithm.md"
+    }
+  },
+  {
+    "id": "root_paxos-algorithm_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "paxos-algorithm",
+    "stem": "关于『介绍』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "paxos-algorithm"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/paxos-algorithm.md"
+    }
+  },
+  {
+    "id": "root_raft-algorithm_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "raft-algorithm",
+    "stem": "关于『1 背景』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "raft-algorithm"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/raft-algorithm.md"
+    }
+  },
+  {
+    "id": "root_raft-algorithm_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "raft-algorithm",
+    "stem": "关于『1.1 非拜占庭条件下的\"选主\"类比』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "raft-algorithm"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/protocol/raft-algorithm.md"
+    }
+  },
+  {
+    "id": "root_dubbo_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "dubbo",
+    "stem": "关于『Dubbo 基础』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "dubbo"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/dubbo.md"
+    }
+  },
+  {
+    "id": "root_dubbo_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "dubbo",
+    "stem": "关于『什么是 Dubbo?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "dubbo"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/dubbo.md"
+    }
+  },
+  {
+    "id": "root_http&rpc_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http&rpc",
+    "stem": "关于『从 TCP 聊起』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http&rpc"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/http&rpc.md"
+    }
+  },
+  {
+    "id": "root_http&rpc_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "http&rpc",
+    "stem": "关于『使用纯裸 TCP 会有什么问题』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "http&rpc"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/http&rpc.md"
+    }
+  },
+  {
+    "id": "root_rpc-intro_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "rpc-intro",
+    "stem": "关于『RPC 是什么?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "rpc-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/rpc-intro.md"
+    }
+  },
+  {
+    "id": "root_rpc-intro_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "rpc-intro",
+    "stem": "关于『RPC 的原理是什么?』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "rpc-intro"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/distributed-system/rpc/rpc-intro.md"
+    }
+  },
+  {
+    "id": "root_fallback-and-circuit-breaker_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "fallback-and-circuit-breaker",
+    "stem": "关于『什么是降级？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "fallback-and-circuit-breaker"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/high-availability/fallback-and-circuit-breaker.md"
+    }
+  },
+  {
+    "id": "root_fallback-and-circuit-breaker_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "fallback-and-circuit-breaker",
+    "stem": "关于『降级的特征』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "fallback-and-circuit-breaker"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/high-availability/fallback-and-circuit-breaker.md"
+    }
+  },
+  {
+    "id": "root_high-availability-system-design_1",
+    "type": "single",
+    "category": "root",
+    "subCategory": "high-availability-system-design",
+    "stem": "关于『什么是高可用？可用性的判断标准是啥？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "high-availability-system-design"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/high-availability/high-availability-system-design.md"
+    }
+  },
+  {
+    "id": "root_high-availability-system-design_2",
+    "type": "single",
+    "category": "root",
+    "subCategory": "high-availability-system-design",
+    "stem": "关于『哪些情况会导致系统不可用？』，下列说法最准确的是？",
+    "options": [
+      "选项A",
+      "选项B",
+      "选项C",
+      "选项D"
+    ],
+    "answers": [
+      "选项A"
+    ],
+    "explanation": "自动生成草稿题，需人工审核答案与解析。",
+    "difficulty": 2,
+    "tags": [
+      "root",
+      "high-availability-system-design"
+    ],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/high-availability/high-availability-system-design.md"
+    }
+  }
+]
