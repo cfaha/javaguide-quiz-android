@@ -1,5 +1,6 @@
 package com.openclaw.javaguidesquiz
 
+import androidx.compose.ui.test.assertExists
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithText
@@ -24,5 +25,33 @@ class QuizHomeScreenTest {
         composeRule.onNodeWithText("随机").assertIsDisplayed()
         composeRule.onNodeWithText("提交").assertIsDisplayed()
         composeRule.onNodeWithText("分类").assertIsDisplayed()
+    }
+
+    @Test
+    fun submitFlowShowsResultAndCanGoNext() {
+        composeRule.onNodeWithText("开始刷题").performClick()
+
+        composeRule.onNodeWithText("第 1/", substring = true).assertExists()
+        composeRule.onNodeWithText("提交").performClick()
+
+        composeRule.onNodeWithText("答案：", substring = true).assertExists()
+        composeRule.onNodeWithText("解析：", substring = true).assertExists()
+        composeRule.onNodeWithText("下一题").assertExists()
+
+        composeRule.onNodeWithText("下一题").performClick()
+        composeRule.onNodeWithText("第 2/", substring = true).assertExists()
+    }
+
+    @Test
+    fun canSwitchModeAndFilterCategory() {
+        composeRule.onNodeWithText("开始刷题").performClick()
+
+        composeRule.onNodeWithText("随机").performClick()
+        composeRule.onNodeWithText("顺序").performClick()
+
+        composeRule.onNodeWithText("分类").assertIsDisplayed()
+        composeRule.onNodeWithText("全部").performClick()
+
+        composeRule.onNodeWithText("第 1/", substring = true).assertExists()
     }
 }
