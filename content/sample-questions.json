@@ -1,0 +1,18 @@
+[
+  {
+    "id": "jvm_0001",
+    "type": "single",
+    "category": "JVM",
+    "subCategory": "内存区域",
+    "stem": "以下哪项属于线程私有内存？",
+    "options": ["堆", "方法区", "虚拟机栈", "运行时常量池"],
+    "answers": ["虚拟机栈"],
+    "explanation": "虚拟机栈是线程私有；堆通常是线程共享。",
+    "difficulty": 2,
+    "tags": ["JVM", "内存"],
+    "source": {
+      "repo": "Snailclimb/JavaGuide",
+      "path": "docs/java/jvm/memory-area.md"
+    }
+  }
+]
