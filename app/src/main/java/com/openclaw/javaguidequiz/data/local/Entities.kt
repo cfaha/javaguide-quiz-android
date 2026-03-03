@@ -28,3 +28,9 @@ data class WrongBookEntity(
     val wrongCount: Int,
     val lastWrongAt: Long
 )
+
+@Entity(tableName = "favorite", primaryKeys = ["questionId"])
+data class FavoriteEntity(
+    val questionId: String,
+    val createdAt: Long
+)

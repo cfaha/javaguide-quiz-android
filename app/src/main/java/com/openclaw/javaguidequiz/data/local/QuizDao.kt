@@ -18,4 +18,13 @@ interface QuizDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertWrongBook(item: WrongBookEntity)
+
+    @Query("SELECT questionId FROM favorite")
+    suspend fun getFavoriteIds(): List<String>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun addFavorite(item: FavoriteEntity)
+
+    @Query("DELETE FROM favorite WHERE questionId = :questionId")
+    suspend fun removeFavorite(questionId: String)
 }

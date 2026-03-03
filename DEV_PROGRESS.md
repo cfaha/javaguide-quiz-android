@@ -15,8 +15,8 @@
   - Favorites/wrong-book currently in-memory, not persisted to Room yet.
 
 ## Next development plan
-1. Persist practice state, wrong-book, and favorites to Room.
-2. Implement repository layer mapping Room entity <-> domain model.
-3. Add category filtering and random mode.
-4. Add result summary page for whole session.
-5. Add instrumentation/UI tests for answer flow.
+1. Implement repository layer mapping Room entity <-> domain model and wire ViewModel to Room.
+2. Add category filtering and random mode.
+3. Add result summary page for whole session.
+4. Add instrumentation/UI tests for answer flow.
+5. Add release build workflow and signed artifact pipeline.
