@@ -28,4 +28,18 @@ class ScoringTest {
         assertTrue(Scoring.check(q, emptySet(), "repeatable read"))
         assertTrue(Scoring.check(q, emptySet(), " REPEATABLE   READ "))
     }
+
+    @Test
+    fun blank_shouldNormalizeChineseAndEnglishPunctuation() {
+        val q = Question("4", QuestionType.BLANK, "Network", "", answers = listOf("A,B."), explanation = "")
+        assertTrue(Scoring.check(q, emptySet(), "a，b。"))
+        assertFalse(Scoring.check(q, emptySet(), "a,b!"))
+    }
+
+    @Test
+    fun multiChoice_shouldFailWhenContainsExtraOrInvalidOption() {
+        val q = Question("5", QuestionType.MULTI, "JVM", "", listOf("A", "B", "C"), listOf("A", "C"), "")
+        assertFalse(Scoring.check(q, setOf(0, 1, 2), ""))
+        assertFalse(Scoring.check(q, setOf(0, 3), ""))
+    }
 }
