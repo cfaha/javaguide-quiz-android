@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
@@ -26,6 +27,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.openclaw.javaguidesquiz.domain.model.QuestionType
 import com.openclaw.javaguidesquiz.ui.viewmodel.PracticeViewModel
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
     val state by vm.state.collectAsStateWithLifecycle()
