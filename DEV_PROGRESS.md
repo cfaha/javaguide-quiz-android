@@ -16,6 +16,8 @@
 - Added instrumentation test `PracticeViewModelPersistenceTest` to verify favorites/wrong-book survive ViewModel recreation via Room-backed repository.
 - Extended `QuizHomeScreenTest` with instrumentation coverage for answer submit→result→next flow and mode/category interactions.
 - Added UI instrumentation assertion for favorite toggle state (`收藏` ↔ `取消收藏`) to reduce interaction blind spots in question flow.
+- Added release workflow `.github/workflows/android-release.yml` (tag/workflow_dispatch trigger) with optional keystore-based signing env pipeline and release artifact upload.
+- Updated app release signing to support CI-injected env vars (`SIGNING_STORE_FILE` / `SIGNING_STORE_PASSWORD` / `SIGNING_KEY_ALIAS` / `SIGNING_KEY_PASSWORD`).
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
@@ -26,5 +28,5 @@
 
 ## Next development plan
 1. Harden instrumentation assertions (reduce text-fragile checks) and add edge-case coverage for blank/multi question interactions.
-2. Add release build workflow and signed artifact pipeline.
-3. Extend CI assertions from seed JSON validation to Room seed/readback consistency checks.
+2. Extend CI assertions from seed JSON validation to Room seed/readback consistency checks.
+3. Add release automation follow-up: optional GitHub Release publishing and signed artifact verification step.
