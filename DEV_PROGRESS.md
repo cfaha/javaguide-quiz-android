@@ -11,6 +11,7 @@
 - Added Room repository mapping for `QuestionEntity/QuestionOptionEntity` <-> domain `Question`.
 - Wired `PracticeViewModel` startup load to `PracticeRepository.loadOrSeedQuestions()` and DB-backed favorites/wrong-book restore.
 - Updated Compose instrumentation test to cover home entry and start-practice flow (mode/filter controls visibility).
+- Added CI pre-build validation for `questions.json` (non-empty, unique ids, valid type/options/answers) to guard Room seed/readback inputs.
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
@@ -23,4 +24,4 @@
 1. Complete persistence chain verification for wrong-book/favorites through Room + ViewModel interaction tests.
 2. Add instrumentation/UI tests for answer flow and filter/mode switching.
 3. Add release build workflow and signed artifact pipeline.
-4. Add CI assertions for Room question seed/readback consistency.
+4. Extend CI assertions from seed JSON validation to Room seed/readback consistency checks.

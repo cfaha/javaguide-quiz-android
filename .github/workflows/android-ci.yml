@@ -28,6 +28,35 @@ jobs:
       - name: Grant execute permission
         run: chmod +x gradlew
 
+      - name: Validate question seed JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('app/src/main/assets/questions.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          assert isinstance(data, list) and data, 'questions.json must be a non-empty array'
+
+          ids = set()
+          for i, q in enumerate(data):
+              qid = q.get('id')
+              assert qid and isinstance(qid, str), f'question[{i}] missing string id'
+              assert qid not in ids, f'duplicate question id: {qid}'
+              ids.add(qid)
+
+              qtype = (q.get('type') or '').lower()
+              assert qtype in {'single', 'multi', 'blank'}, f'invalid type for {qid}: {qtype}'
+
+              answers = q.get('answers')
+              assert isinstance(answers, list) and answers, f'{qid} must contain non-empty answers[]'
+
+              if qtype in {'single', 'multi'}:
+                  options = q.get('options')
+                  assert isinstance(options, list) and options, f'{qid} must contain non-empty options[]'
+          print(f'Validated {len(data)} questions from {p}')
+          PY
+
       - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace
 
