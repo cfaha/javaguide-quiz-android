@@ -1,10 +1,55 @@
 package com.openclaw.javaguidesquiz.data.repository
 
+import android.content.Context
 import com.openclaw.javaguidesquiz.domain.model.Question
 import com.openclaw.javaguidesquiz.domain.model.QuestionType
+import org.json.JSONArray
 
 object SampleQuestionRepository {
-    fun load(): List<Question> = listOf(
+
+    fun load(context: Context): List<Question> {
+        return try {
+            val json = context.assets.open("questions.json").bufferedReader().use { it.readText() }
+            parseQuestions(json)
+        } catch (_: Exception) {
+            fallback()
+        }
+    }
+
+    private fun parseQuestions(json: String): List<Question> {
+        val arr = JSONArray(json)
+        val out = ArrayList<Question>(arr.length())
+        for (i in 0 until arr.length()) {
+            val o = arr.getJSONObject(i)
+            val type = when (o.optString("type").lowercase()) {
+                "single" -> QuestionType.SINGLE
+                "multi" -> QuestionType.MULTI
+                "blank" -> QuestionType.BLANK
+                else -> QuestionType.SINGLE
+            }
+            val options = mutableListOf<String>()
+            val optionsArr = o.optJSONArray("options") ?: JSONArray()
+            for (j in 0 until optionsArr.length()) options += optionsArr.optString(j)
+
+            val answers = mutableListOf<String>()
+            val answersArr = o.optJSONArray("answers") ?: JSONArray()
+            for (j in 0 until answersArr.length()) answers += answersArr.optString(j)
+
+            out += Question(
+                id = o.optString("id", "q_$i"),
+                type = type,
+                category = o.optString("category", "未分类"),
+                stem = o.optString("stem", ""),
+                options = options,
+                answers = answers.ifEmpty { listOf("选项A") },
+                explanation = o.optString("explanation", ""),
+                difficulty = o.optInt("difficulty", 2)
+            )
+        }
+        return out
+    }
+
+    private fun fallback(): List<Question> = listOf(
         Question(
             id = "java_001",
             type = QuestionType.SINGLE,
@@ -14,25 +59,6 @@ object SampleQuestionRepository {
             answers = listOf("值传递"),
             explanation = "Java 只有值传递；对象传递的是引用副本。",
             difficulty = 1
-        ),
-        Question(
-            id = "jvm_001",
-            type = QuestionType.MULTI,
-            category = "JVM",
-            stem = "以下哪些属于 JVM 运行时内存区域？",
-            options = listOf("堆", "虚拟机栈", "本地方法栈", "TCP 缓冲区"),
-            answers = listOf("堆", "虚拟机栈", "本地方法栈"),
-            explanation = "TCP 缓冲区属于操作系统网络栈，不是 JVM 运行时内存区域。",
-            difficulty = 2
-        ),
-        Question(
-            id = "mysql_001",
-            type = QuestionType.BLANK,
-            category = "MySQL",
-            stem = "InnoDB 默认事务隔离级别是？",
-            answers = listOf("REPEATABLE READ", "可重复读"),
-            explanation = "MySQL InnoDB 默认是可重复读（Repeatable Read）。",
-            difficulty = 2
         )
     )
 }

@@ -17,7 +17,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 class PracticeViewModel(application: Application) : AndroidViewModel(application) {
-    private val all = SampleQuestionRepository.load()
+    private val all = SampleQuestionRepository.load(application)
     private val repository = PracticeRepository((application as QuizApp).db.quizDao())
 
     private val _state = MutableStateFlow(
