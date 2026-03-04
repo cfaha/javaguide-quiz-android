@@ -47,11 +47,27 @@ def category_from_path(path: Path) -> str:
     return "javaguide"
 
 
+def slugify(text: str) -> str:
+    s = text.lower()
+    s = re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_")
+    return s or "x"
+
+
+def md_identity(path: Path) -> str:
+    rel = path.relative_to(JAVAGUIDE)
+    parent = "_".join(rel.parts[1:-1]) if len(rel.parts) > 2 else ""
+    name = rel.stem
+    raw = f"{parent}_{name}" if parent else name
+    return slugify(raw)
+
+
 def gen_from_md(path: Path, limit=None):
     text = path.read_text(encoding="utf-8", errors="ignore")
     heads = re.findall(r"^#{2,4}\s+(.+)$", text, flags=re.M)
     items = []
     cat = category_from_path(path)
+    file_id = md_identity(path)
     selected = heads if limit is None else heads[:limit]
     idx = 0
     for h in selected:
@@ -59,7 +75,7 @@ def gen_from_md(path: Path, limit=None):
         if stem is None:
             continue
         idx += 1
-        qid = f"{cat}_{path.stem}_{idx}".lower().replace(" ", "_")
+        qid = f"{slugify(cat)}_{file_id}_{idx}"
         items.append({
             "id": qid,
             "type": "single",
@@ -80,7 +96,13 @@ def main(max_questions: int | None = None):
     if not JAVAGUIDE.exists():
         raise SystemExit("JavaGuide docs not found. Put repo under imported/JavaGuide")
     all_items = []
-    for md in JAVAGUIDE.rglob("*.md"):
+    seen_paths = set()
+    for md in sorted(JAVAGUIDE.rglob("*.md")):
+        rel_lower = str(md.relative_to(JAVAGUIDE)).lower()
+        if rel_lower in seen_paths:
+            continue
+        seen_paths.add(rel_lower)
+
         all_items.extend(gen_from_md(md, limit=None))
         if max_questions is not None and len(all_items) >= max_questions:
             break
