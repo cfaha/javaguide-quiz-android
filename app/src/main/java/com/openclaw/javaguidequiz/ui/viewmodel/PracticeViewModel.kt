@@ -10,10 +10,12 @@ import com.openclaw.javaguidesquiz.domain.model.PracticeState
 import com.openclaw.javaguidesquiz.domain.model.Question
 import com.openclaw.javaguidesquiz.domain.model.QuestionType
 import com.openclaw.javaguidesquiz.domain.model.Scoring
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class PracticeViewModel(
     application: Application,
@@ -25,9 +27,19 @@ class PracticeViewModel(
 
     init {
         viewModelScope.launch {
-            val loadedQuestions = repository.loadOrSeedQuestions(application)
-            val fav = repository.loadFavoriteIds()
-            val wrong = repository.loadWrongBookIds()
+            val bootstrap = runCatching {
+                withContext(Dispatchers.IO) {
+                    Triple(
+                        repository.loadOrSeedQuestions(application),
+                        repository.loadFavoriteIds(),
+                        repository.loadWrongBookIds()
+                    )
+                }
+            }.getOrElse {
+                Triple(emptyList(), emptySet(), emptySet())
+            }
+
+            val (loadedQuestions, fav, wrong) = bootstrap
             _state.update {
                 it.copy(
                     allQuestions = loadedQuestions,
@@ -68,7 +80,9 @@ class PracticeViewModel(
             )
         }
         if (!correct) {
-            viewModelScope.launch { repository.recordWrong(q.id) }
+            viewModelScope.launch(Dispatchers.IO) {
+                runCatching { repository.recordWrong(q.id) }
+            }
         }
     }
 
@@ -130,9 +144,11 @@ class PracticeViewModel(
             val fav = if (shouldAdd) it.favorites + q.id else it.favorites - q.id
             it.copy(favorites = fav)
         }
-        viewModelScope.launch {
-            if (shouldAdd) repository.addFavorite(q.id)
-            else repository.removeFavorite(q.id)
+        viewModelScope.launch(Dispatchers.IO) {
+            runCatching {
+                if (shouldAdd) repository.addFavorite(q.id)
+                else repository.removeFavorite(q.id)
+            }
         }
     }
 
