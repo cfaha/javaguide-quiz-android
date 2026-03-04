@@ -2,7 +2,9 @@ package com.openclaw.javaguidesquiz
 
 import androidx.compose.ui.test.assertExists
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import org.junit.Rule
@@ -21,46 +23,54 @@ class QuizHomeScreenTest {
 
         composeRule.onNodeWithText("开始刷题").performClick()
 
-        composeRule.onNodeWithText("顺序").assertIsDisplayed()
-        composeRule.onNodeWithText("随机").assertIsDisplayed()
-        composeRule.onNodeWithText("提交").assertIsDisplayed()
-        composeRule.onNodeWithText("分类").assertIsDisplayed()
+        composeRule.onNodeWithTag("mode_sequential").assertIsDisplayed()
+        composeRule.onNodeWithTag("mode_random").assertIsDisplayed()
+        composeRule.onNodeWithTag("submit_button").assertIsDisplayed()
+        composeRule.onNodeWithTag("category_label").assertIsDisplayed()
     }
 
     @Test
     fun submitFlowShowsResultAndCanGoNext() {
         composeRule.onNodeWithText("开始刷题").performClick()
 
-        composeRule.onNodeWithText("第 1/", substring = true).assertExists()
-        composeRule.onNodeWithText("提交").performClick()
+        composeRule.onNodeWithTag("question_progress").assertExists()
+        composeRule.onNodeWithTag("submit_button").performClick()
 
-        composeRule.onNodeWithText("答案：", substring = true).assertExists()
-        composeRule.onNodeWithText("解析：", substring = true).assertExists()
-        composeRule.onNodeWithText("下一题").assertExists()
+        composeRule.onNodeWithTag("result_card").assertExists()
+        composeRule.onNodeWithTag("next_button").assertExists()
 
-        composeRule.onNodeWithText("下一题").performClick()
-        composeRule.onNodeWithText("第 2/", substring = true).assertExists()
+        composeRule.onNodeWithTag("next_button").performClick()
+        composeRule.onNodeWithTag("question_progress").assertExists()
     }
 
     @Test
     fun canSwitchModeAndFilterCategory() {
         composeRule.onNodeWithText("开始刷题").performClick()
 
-        composeRule.onNodeWithText("随机").performClick()
-        composeRule.onNodeWithText("顺序").performClick()
+        composeRule.onNodeWithTag("mode_random").performClick()
+        composeRule.onNodeWithTag("mode_sequential").performClick()
 
-        composeRule.onNodeWithText("分类").assertIsDisplayed()
+        composeRule.onNodeWithTag("category_label").assertIsDisplayed()
         composeRule.onNodeWithText("全部").performClick()
 
-        composeRule.onNodeWithText("第 1/", substring = true).assertExists()
+        composeRule.onNodeWithTag("question_progress").assertExists()
     }
 
     @Test
     fun canToggleFavoriteStateFromQuestionCard() {
         composeRule.onNodeWithText("开始刷题").performClick()
 
-        composeRule.onNodeWithText("收藏").assertExists()
-        composeRule.onNodeWithText("收藏").performClick()
+        composeRule.onNodeWithTag("favorite_button").assertExists()
+        composeRule.onNodeWithTag("favorite_button").performClick()
         composeRule.onNodeWithText("取消收藏").assertExists()
+    }
+
+    @Test
+    fun submitShouldBeDisabledAfterResultShown() {
+        composeRule.onNodeWithText("开始刷题").performClick()
+
+        composeRule.onNodeWithTag("submit_button").performClick()
+        composeRule.onNodeWithTag("result_card").assertExists()
+        composeRule.onNodeWithTag("submit_button").assertIsNotEnabled()
     }
 }

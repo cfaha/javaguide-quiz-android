@@ -22,6 +22,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -88,7 +89,10 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
                         modifier = Modifier.padding(12.dp).fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
-                        Text("第 ${state.index + 1}/${state.total} 题")
+                        Text(
+                            "第 ${state.index + 1}/${state.total} 题",
+                            modifier = Modifier.testTag("question_progress")
+                        )
                         Text(current.category)
                     }
                 }
@@ -96,8 +100,18 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
 
             item {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    FilterChip(selected = state.mode == PracticeMode.SEQUENTIAL, onClick = { vm.setMode(PracticeMode.SEQUENTIAL) }, label = { Text("顺序") })
-                    FilterChip(selected = state.mode == PracticeMode.RANDOM, onClick = { vm.setMode(PracticeMode.RANDOM) }, label = { Text("随机") })
+                    FilterChip(
+                        modifier = Modifier.testTag("mode_sequential"),
+                        selected = state.mode == PracticeMode.SEQUENTIAL,
+                        onClick = { vm.setMode(PracticeMode.SEQUENTIAL) },
+                        label = { Text("顺序") }
+                    )
+                    FilterChip(
+                        modifier = Modifier.testTag("mode_random"),
+                        selected = state.mode == PracticeMode.RANDOM,
+                        onClick = { vm.setMode(PracticeMode.RANDOM) },
+                        label = { Text("随机") }
+                    )
                 }
             }
 
@@ -116,7 +130,9 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
             } else {
                 item {
                     OutlinedTextField(
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .testTag("blank_input"),
                         value = state.blankInput,
                         onValueChange = vm::onBlankInput,
                         label = { Text("请输入答案") }
@@ -126,17 +142,27 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
 
             item {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Button(onClick = vm::submit, enabled = !state.showResult) { Text("提交") }
-                    Button(onClick = vm::toggleFavorite) { Text(if (current.id in state.favorites) "取消收藏" else "收藏") }
+                    Button(
+                        modifier = Modifier.testTag("submit_button"),
+                        onClick = vm::submit,
+                        enabled = !state.showResult
+                    ) { Text("提交") }
+                    Button(
+                        modifier = Modifier.testTag("favorite_button"),
+                        onClick = vm::toggleFavorite
+                    ) { Text(if (current.id in state.favorites) "取消收藏" else "收藏") }
                     if (state.showResult) {
-                        Button(onClick = vm::next) { Text(if (state.index < state.total - 1) "下一题" else "完成") }
+                        Button(
+                            modifier = Modifier.testTag("next_button"),
+                            onClick = vm::next
+                        ) { Text(if (state.index < state.total - 1) "下一题" else "完成") }
                     }
                 }
             }
 
             if (state.showResult) {
                 item {
-                    Card(modifier = Modifier.fillMaxWidth()) {
+                    Card(modifier = Modifier.fillMaxWidth().testTag("result_card")) {
                         Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             Text(if (state.isCorrect == true) "回答正确 ✅" else "回答错误 ❌")
                             Text("答案：${current.answers.joinToString(" / ")}")
@@ -151,7 +177,7 @@ fun QuizHomeScreen(vm: PracticeViewModel = viewModel()) {
             }
 
             item {
-                Text("分类")
+                Text("分类", modifier = Modifier.testTag("category_label"))
             }
             items(state.categories) { category ->
                 FilterChip(selected = state.selectedCategory == category, onClick = { vm.setCategory(category) }, label = { Text(category) })

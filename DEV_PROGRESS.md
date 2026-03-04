@@ -19,6 +19,8 @@
 - Added release workflow `.github/workflows/android-release.yml` (tag/workflow_dispatch trigger) with optional keystore-based signing env pipeline and release artifact upload.
 - Updated app release signing to support CI-injected env vars (`SIGNING_STORE_FILE` / `SIGNING_STORE_PASSWORD` / `SIGNING_KEY_ALIAS` / `SIGNING_KEY_PASSWORD`).
 - Extended `ScoringTest` with blank/multi edge cases (punctuation normalization and multi-select extra/invalid option rejection) to improve interaction robustness.
+- Hardened instrumentation stability by introducing Compose test tags in `QuizHomeScreen` and migrating core UI assertions away from fragile literal text matching.
+- Added instrumentation boundary check to ensure submit becomes disabled after first submission/result display.
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
