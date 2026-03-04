@@ -39,6 +39,10 @@ jobs:
           assert isinstance(data, list) and data, 'questions.json must be a non-empty array'
 
           ids = set()
+
+          def normalize_blank(text: str) -> str:
+              return text.lower().replace(' ', '').replace('，', ',').replace('。', '.').strip()
+
           for i, q in enumerate(data):
               qid = q.get('id')
               assert qid and isinstance(qid, str), f'question[{i}] missing string id'
@@ -50,10 +54,26 @@ jobs:
 
               answers = q.get('answers')
               assert isinstance(answers, list) and answers, f'{qid} must contain non-empty answers[]'
+              assert all(isinstance(a, str) and a.strip() for a in answers), f'{qid} answers[] must be non-empty strings'
+
+              # Room seed/readback consistency guard: ensure answers JSON can round-trip
+              encoded = json.dumps(answers, ensure_ascii=False)
+              decoded = json.loads(encoded)
+              assert decoded == answers, f'{qid} answers JSON round-trip mismatch'
 
               if qtype in {'single', 'multi'}:
                   options = q.get('options')
                   assert isinstance(options, list) and options, f'{qid} must contain non-empty options[]'
+                  assert all(isinstance(o, str) and o.strip() for o in options), f'{qid} options[] must be non-empty strings'
+                  option_set = set(options)
+                  missing = [a for a in answers if a not in option_set]
+                  assert not missing, f'{qid} answers not found in options: {missing}'
+                  if qtype == 'single':
+                      assert len(answers) == 1, f'{qid} single choice must have exactly one answer'
+              else:
+                  # blank answers should stay unique after same normalization as app scoring
+                  norm = [normalize_blank(a) for a in answers]
+                  assert len(norm) == len(set(norm)), f'{qid} blank answers collapse after normalization'
           print(f'Validated {len(data)} questions from {p}')
           PY
 

@@ -21,6 +21,7 @@
 - Extended `ScoringTest` with blank/multi edge cases (punctuation normalization and multi-select extra/invalid option rejection) to improve interaction robustness.
 - Hardened instrumentation stability by introducing Compose test tags in `QuizHomeScreen` and migrating core UI assertions away from fragile literal text matching.
 - Added instrumentation boundary check to ensure submit becomes disabled after first submission/result display.
+- Extended CI seed validation with stronger consistency guards: answer/options cross-check for single/multi, blank-answer normalization uniqueness, and JSON round-trip checks for serialized answers.
 
 ## Self-check / bug check
 - Build chain previously restored (latest CI passed once after fixes).
@@ -30,6 +31,6 @@
   - Newly added Room mapping path needs CI validation for serialization/migration edge cases.
 
 ## Next development plan
-1. Harden instrumentation assertions (reduce text-fragile checks) and add edge-case coverage for blank/multi question interactions.
-2. Extend CI assertions from seed JSON validation to Room seed/readback consistency checks.
+1. Continue hardening instrumentation for blank/multi interactions with less text-fragile assertions.
+2. Add deeper Room seed/readback checks (DAO-level integration verification in CI-capable environment).
 3. Add release automation follow-up: optional GitHub Release publishing and signed artifact verification step.
